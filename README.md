@@ -1,6 +1,6 @@
-# Peta Titik Evakuasi Bengkulu
+# Peta Titik Evakuasi Bengkulu Utara dan Muko-Muko
 
-Aplikasi web interaktif untuk menampilkan dan mencari titik-titik evakuasi di wilayah Bengkulu. Dilengkapi dengan fitur pencarian, penentuan lokasi terdekat, dan informasi detail untuk setiap titik evakuasi.
+Aplikasi web interaktif untuk menampilkan dan mencari titik-titik evakuasi di wilayah sekitaran Bengkulu Utara dan Muko-Muko. Titik evakuasi yang ada di web ini sebanyak 27 titik yang tersebar di daerah Bengkulu Utara dan Muko Muko. Dilengkapi dengan fitur pencarian, penentuan lokasi terdekat, dan informasi detail untuk setiap titik evakuasi.
 
 ## 🌍 Deskripsi
 
@@ -268,3 +268,4 @@ Untuk pertanyaan atau masalah:
 ---
 **Last Updated**: November 2025  
 **Made with ❤️ for Safety**
+
