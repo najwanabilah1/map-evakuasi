@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Peta Titik Evakuasi Bengkulu</title>
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <!-- Geocoder -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+  <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<div id="sidebar">
+    <h2>Jalur Evakuasi Bengkulu</h2>
+
+    <input id="searchInput" type="text" placeholder="Cari Desa / Titik..." />
+
+    <button id="nearButton">Temukan Titik Terdekat</button>
+
+    <h3>Daftar Titik Evakuasi</h3>
+    <div id="list"></div>
+</div>
+
+<!-- MAP -->
+<div id="map"></div>
+
+<!-- LEGEND -->
+<div id="legend">
+  <h4>Legenda</h4>
+  <div class="legend-item"><span class="legend-icon marker-default"></span> Titik Evakuasi</div>
+  <div class="legend-item"><span class="legend-icon marker-selected"></span> Titik Terpilih</div>
+  <div class="legend-item"><span class="legend-icon marker-user"></span> Lokasi Anda</div>
+  <div class="legend-item"><span class="legend-icon map-icon">🗺️</span> Ganti Jenis Peta (kanan atas)</div>
+  <div class="legend-note">Klik marker atau daftar untuk melihat detail</div>
+</div>
+
+<!-- Legend item for user location -->
+<div id="legend-user" style="display:none"></div>
+
+<!-- CARD INFO -->
+<div id="infoCard" class="hidden">
+  <button id="closeCard">X</button>
+  <h3 id="cardTitle"></h3>
+  <p id="cardAddress"></p>
+  <p id="cardVillage" class="muted"></p>
+  <p id="cardDistrict" class="muted"></p>
+  <p id="cardPhone" class="muted"></p>
+  <p id="cardCoords"></p>
+
+  <a id="gmapsButton" href="#" target="_blank" class="gmaps-btn">
+    Buka di Google Maps
+  </a>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

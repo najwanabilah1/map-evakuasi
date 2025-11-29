@@ -1,0 +1,343 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Titik kumpul Pasar Lais"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.0493772455492,
+          -3.529078169437841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Titik Evakuasi Dusun Raja"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.0390838856357,
+          -3.524034729178063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Titik Kumpul Air Padang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.0016424086245,
+          -3.50335482604402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Titik Evakuasi Bintunan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.9818330794254,
+          -3.49111628048765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Titik Evakuasi  2 Bintunan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.9472292820626,
+          -3.473964524813673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Titik Evakuasi 1 Serangai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.8966649785197,
+          -3.420853095454398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Titik Evakuasi 2 Serangai (TPU)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.8963066177485,
+          -3.418511239065774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Titik Evakuasi Bukit Tarikan desa Urai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.8458056,
+          -3.385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Titik Evakuasi Jalan perkebunan Simpang 1 desa Urai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.8655278,
+          -3.4055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Titik Evakuasi Lubu Balam desa Urai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.8557778,
+          -3.3913889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Titik Awal Evakuasi Teramang Jaya(Jalur Air Bikuk)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.3629804271289,
+          -2.787873909411525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Titik Evakuasi Teramang Jaya(Air Bikuk)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.3946425288502,
+          -2.775377556917052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Titik Evakuasi Bantal dan Teramang Jaya(Mandi Angin)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.3400802934167,
+          -2.760893225521447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Titik Evakuasi Bantal(Pt. Agro)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.3651562484002,
+          -2.731605852155438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tempat Evakuasi 1 Desa Air Rami"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5329304103603,
+          -3.112081299564924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tempat Evakuasi 2 Desa Air Rami"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5395363143935,
+          -3.106765715118388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Titik Awal Evakuasi Sinar Laut(Air Hitam)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.3919960325861,
+          -2.864705729882261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Titik Evakuasi Sinar Laut(PT.GGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4354836943623,
+          -2.868637476068707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tempat Evakuasi Desa Retak Hilir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4648848051262,
+          -2.963148156441883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Titik Evakusi Sinar Laut(F1 Mekar Sari)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4481706734558,
+          -2.892170536096524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Titik Evakuasi Pasar Ipuh(Smanda)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4943524143535,
+          -2.987075035877917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Titik Evakusi Air Buluh (Bedeng Bata)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5048063487593,
+          -3.051007561872552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Titik Evakusi Air Buluh (Transmigrasi)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5145294563182,
+          -3.059905485096699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Titik Evakuasi 3 Air Rami"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5337690997487,
+          -3.090946696313249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Titik Evakuasi Koto Jaya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.1267569428158,
+          -2.590107697456308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tititk Evakuasi Bandar Ratu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.1038259118683,
+          -2.553156437174077
+        ]
+      }
+    }
+  ]
+}
