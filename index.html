@@ -18,27 +18,43 @@
 
 <!-- SIDEBAR -->
 <div id="sidebar">
-    <h2>Jalur Evakuasi Bengkulu</h2>
+    <div class="sidebar-header">
+      <h2 id="sidebarTitle">Jalur Evakuasi Bengkulu</h2>
+    </div>
 
     <input id="searchInput" type="text" placeholder="Cari Desa / Titik..." />
 
     <button id="nearButton">Temukan Titik Terdekat</button>
 
-    <h3>Daftar Titik Evakuasi</h3>
+    <h3 id="listHeading">Daftar Titik Evakuasi</h3>
     <div id="list"></div>
 </div>
+
+<div id="langModal" class="lang-modal" aria-hidden="true">
+  <div class="lang-modal-inner">
+    <h3>Pilih Bahasa / Choose Language</h3>
+    <div class="lang-actions">
+      <button class="lang-btn" data-lang="id">Bahasa Indonesia</button>
+      <button class="lang-btn" data-lang="en">English</button>
+    </div>
+    <button id="langClose" class="lang-close">Tutup</button>
+  </div>
+</div>
+
+<!-- language toggle small -->
+<div id="langToggle" class="lang-toggle" title="Change language">EN</div>
 
 <!-- MAP -->
 <div id="map"></div>
 
 <!-- LEGEND -->
 <div id="legend">
-  <h4>Legenda</h4>
-  <div class="legend-item"><span class="legend-icon marker-default"></span> Titik Evakuasi</div>
-  <div class="legend-item"><span class="legend-icon marker-selected"></span> Titik Terpilih</div>
-  <div class="legend-item"><span class="legend-icon marker-user"></span> Lokasi Anda</div>
-  <div class="legend-item"><span class="legend-icon map-icon">🗺️</span> Ganti Jenis Peta (kanan atas)</div>
-  <div class="legend-note">Klik marker atau daftar untuk melihat detail</div>
+  <h4 id="legendTitle">Legenda</h4>
+  <div class="legend-item"><span class="legend-icon marker-default"></span> <span id="legendEvac">Titik Evakuasi</span></div>
+  <div class="legend-item"><span class="legend-icon marker-selected"></span> <span id="legendSel">Titik Terpilih</span></div>
+  <div class="legend-item"><span class="legend-icon marker-user"></span> <span id="legendUser">Lokasi Anda</span></div>
+  <div class="legend-item"><span class="legend-icon map-icon">🗺️</span> <span id="legendMap">Ganti Jenis Peta (kanan atas)</span></div>
+  <div class="legend-note" id="legendNote">Klik marker atau daftar untuk melihat detail</div>
 </div>
 
 <!-- Legend item for user location -->
